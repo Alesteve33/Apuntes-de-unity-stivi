@@ -1,0 +1,19 @@
+using using UnityEngine;
+using System.Collections;
+
+
+public class Player : MonoBehaviour {
+
+  public float health = 10f;
+
+	// Update is called once per framevoid 
+  void Update () {
+    
+    if(Input.GetKeyDown(Keycode.Space)}
+        TakeDamage(10f);
+	  }
+  
+  void TakeDamage(float Damage){
+    health = health - damage
+  }
+  
