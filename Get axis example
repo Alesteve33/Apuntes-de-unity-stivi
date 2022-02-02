@@ -1,0 +1,28 @@
+using UnityEngine;
+using System.Collections;
+
+
+public class Player : MonoBehaviour {
+
+	public speed = 5f;
+  
+  void Update () {
+  
+    Move();
+    
+  }
+  
+  void Move (){
+  
+     //Getting the input, multiplying by speed and DeltaTime and also normalizing so moving diagonally doesn't make you faster.
+  
+      Vector3 input = new Vector3(Input.GetaxisRaw("Horizontal"), 0, Input.GetaxisRaw("Vertical"));
+      Vector3 inputNormalized = input.normalized;
+      Vector3 movement = inputNormalized * speed * time.DeltaTime;
+  
+      // Moving the object with this variable
+  
+      transform.position += movement
+  
+  }
+}  
