@@ -1,0 +1,22 @@
+using UnityEngine;
+using System.Collections;
+
+
+public class Enemy : MonoBehaviour {
+
+    Player playerClass;
+  
+    void Start (){
+        playerClass = GameObject.Find("Player").GetComponent<Player>();
+    }
+
+    void Update (){
+    
+    Input.GetKeyDown(Keycode.Space){
+    
+    playerClass.TakeDamage(5f);
+   
+    }
+ 
+ }
+  
