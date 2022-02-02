@@ -13,11 +13,11 @@ public class Player : MonoBehaviour {
     if(Input.GetKeyDown(Keycode.Space)}
         TakeDamage(2f);
 	
-	  }
+  }
   
   void TakeDamage(float Damage){
     
-    health -= damage
+    health -= Damage;
  
  }
   
