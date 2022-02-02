@@ -6,14 +6,18 @@ public class Player : MonoBehaviour {
 
   public float health = 10f;
 
-	// Update is called once per framevoid 
   void Update () {
     
+    //if press Space then Take 2 Damage
+    
     if(Input.GetKeyDown(Keycode.Space)}
-        TakeDamage(10f);
+        TakeDamage(2f);
+	
 	  }
   
   void TakeDamage(float Damage){
-    health = health - damage
-  }
+    
+    health -= damage
+ 
+ }
   
