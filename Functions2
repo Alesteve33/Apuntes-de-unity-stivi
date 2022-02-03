@@ -1,0 +1,20 @@
+using UnityEngine;
+using System.Collections;
+
+
+public class Returning : MonoBehaviour {
+
+  
+    void Start (){
+    
+        float RandomNumber = RandomNumber();
+        print(Operation1);
+        
+    }
+    
+    float RandomNumber();
+ 
+    Random.Range(0, 101);
+    
+    }
+ }
