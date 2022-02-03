@@ -7,8 +7,8 @@ public class Returning : MonoBehaviour {
   
     void Start (){
     
-        float RandomNumber = RandomNumber();
-        print(Operation1);
+        float LuckyNumber = RandomNumber();
+        print("Your lucky number is " + LuckyNumber);
         
     }
     
