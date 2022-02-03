@@ -10,9 +10,8 @@ public class Player : MonoBehaviour {
     
     //if press Space then Take 2 Damage
     
-    if(Input.GetKeyDown(Keycode.Space)}
-        TakeDamage(2f);
-	
+    if(Input.GetKeyDown(Keycode.Space){
+        TakeDamage(2f);	
   }
   
   void TakeDamage(float Damage){
@@ -21,3 +20,4 @@ public class Player : MonoBehaviour {
  
  }
   
+}
