@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour {
 
     void Update (){
     
-        Input.GetKeyDown(Keycode.Space){
+        if (Input.GetKeyDown(Keycode.Space)){
     
             playerClass.TakeDamage(5f);
    
