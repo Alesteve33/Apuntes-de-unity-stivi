@@ -17,7 +17,5 @@ public class ChairSpawner : MonoBehaviour {
             Intantiate (Chair, randomPosition, Quaternion.Euler (randomRotation));
    
         }
-   
     }
- 
  }
