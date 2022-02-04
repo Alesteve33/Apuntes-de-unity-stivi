@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+
+
+public class Player : MonoBehaviour {
+
+  public float health = 10f;
+
+  void Update () {
+    
+    //if press Space then Take 2 Damage
+    
+    if(Input.GetKeyDown(Keycode.Space){
+        TakeDamage(2f);	
+  }
+  
+  void TakeDamage(float Damage){
+    
+    health -= Damage;
+ 
+ }
+  
+}
