@@ -14,7 +14,8 @@ public class Returning : MonoBehaviour {
     
     float RandomNumber();
  
-    Random.Range(0, 101);
+    Float number = Random.Range(0, 101);
+    return number;
     
     }
  }
